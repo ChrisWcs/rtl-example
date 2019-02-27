@@ -1,8 +1,6 @@
 import React from 'react'
-import { render, fireEvent, cleanup } from 'react-testing-library'
+import { render, fireEvent } from 'react-testing-library'
 import Problem from './Problem'
-
-afterEach(cleanup)
 
 it("has two inputs that I can change to see if it works", () => {
     // Arrange
