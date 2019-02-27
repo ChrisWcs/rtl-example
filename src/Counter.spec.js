@@ -5,7 +5,7 @@ import ClassCounter from './ClassCounter'
 
 afterEach(cleanup)
 
-it("is a HooksCounter with an increment button. It 0 then 1", () => {
+it("is a HooksCounter with an increment button. It is 0 then 1", () => {
     // Arrange
     const { getByTestId } = render(<HooksCounter />)
     const count = getByTestId('count')
